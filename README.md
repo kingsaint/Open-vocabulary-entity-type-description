@@ -30,7 +30,8 @@ python evaluate.py result_<model_name>.csv
 
 ## Authors
 
-* **Rajarshi Bhowmik** - *Initial work* - [kingsaint](https://github.com/kingsaint)
+* **Rajarshi Bhowmik**  - [website](https://kingsaint.github.io)
+* **Gerard de Melo** - [website](https://gerard.demelo.org)
 
 ## License
 
