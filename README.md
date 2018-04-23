@@ -31,7 +31,7 @@ python evaluate.py result_<model_name>.csv
 ## Authors
 
 * **Rajarshi Bhowmik**  - [website](https://kingsaint.github.io)
-* **Gerard de Melo** - [website](https://gerard.demelo.org)
+* **Gerard de Melo** - [website](http://gerard.demelo.org)
 
 ## Citation
 
