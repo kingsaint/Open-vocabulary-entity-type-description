@@ -33,6 +33,20 @@ python evaluate.py result_<model_name>.csv
 * **Rajarshi Bhowmik**  - [website](https://kingsaint.github.io)
 * **Gerard de Melo** - [website](https://gerard.demelo.org)
 
+## Citation
+
+If you use this code, please cite our paper.
+
+```
+@inproceedings{Bhowmik2018EntityDescriptions,
+  title = {Generating Fine-Grained Open Vocabulary Entity Type Descriptions},
+  author = {Bhowmik, Rajarshi and {de Melo}, Gerard},
+  booktitle = {Proceedings of ACL 2018},
+  year = {2018},
+  location = {Melbourne},
+}
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
