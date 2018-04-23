@@ -1,12 +1,37 @@
-***TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION***
+# Project Title
 
-THIS SOFTWARE SHOULD **ONLY** BE USED FOR THE REVIEW PURPOSE.
-PLEASE DO NOT REDISTRIBUTE THIS SOFTWARE WITHOUT PERMISSION. ALL RIGHTS ARE RESERVED TO THE AUTHORS OF THE PAPER "Generating Fine-Grained Open Vocabulary Entity Type Descriptions" SUBMITTED TO ACL 2018.
-THE AUTHORS WILL MAKE THIS SOFTWARE FREELY AVAILABLE UPON PUBLICATION.
+This project is a PyTorch implementation of the ACL 2018 paper: Generating Fine-Grained Open Vocabulary Entity Type Descriptions
 
-***HOW TO USE THE SOFTWARE***
+## Prerequisites
 
-TO RUN A MODEL: python <model_name>.py
-THIS WILL COMPLETE THE TRAINING, VALIDATION, AND TESTING. THE RESULTS FOR TEST DATA WILL BE WRITTEN TO A FILE NAMED "result_<model_name>.csv"
+```
+Python 2.7+
+PyTorch
+```
+##  Run
 
-TO RUN THE EVALUATION SCRIPT: python evaluate.py result_xxx.csv
+```
+python <model_name>.py
+```
+This will complete the training, validation, and testing of the model. The results for the test data will be written to a file named "result_<model_name>.csv".
+For example, to run our model, use
+
+```
+python model.py
+```
+
+## Evaluation
+
+To run evaluation script, use
+
+```
+python evaluate.py result_<model_name>.csv
+```
+
+## Authors
+
+* **Rajarshi Bhowmik** - *Initial work* - [kingsaint](https://github.com/kingsaint)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
